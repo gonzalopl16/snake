@@ -1,0 +1,53 @@
+* {
+    font-family: sans-serif;
+}
+
+#board, .boardInfo {
+    max-width: 500px;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+}
+
+#start, .boardInfo {
+    font-size: 25px;
+}
+
+.boardInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#start {
+    background-color: #F34A64;
+    color: white;
+    border: none;
+}
+#start:hover {
+    background-color: #a72d40;
+    color: black;
+    cursor: pointer;
+}
+
+#scoreBoard {
+    display: inline-flex;
+}
+
+.square {
+    aspect-ratio: 1;
+}
+
+.emptySquare {
+    background-color: #456990;
+}
+
+.snakeSquare {
+    background-color: #ccf47f;
+}
+
+.foodSquare {
+    background-color: #F35A69;
+}
