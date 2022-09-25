@@ -2,6 +2,10 @@
     font-family: sans-serif;
 }
 
+body {
+    background-color: #303030;
+}
+
 #board, .boardInfo {
     max-width: 500px;
 }
